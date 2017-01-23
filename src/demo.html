@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .main {
+                width: 400px !important;
+                margin-bottom: 10px;
+                overflow: hidden;
+                min-height: 100px;
+            }
+            .left {
+                width: 108px;
+                height: 100px;
+                background: #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mainA main" style="width: 1000px;">
+            <div class="left" style="float: left">float</div>
+            <div>我是文字内容;我是文字内容;我是文字内容;我是文字内容;我是文字内容;我是文字内容;</div>
+        </div>
+        <div class="main">
+            <div class="left" style="position: absolute;">absolute</div>
+            <div>我是文字内容;我是文字内容;我是文字内容;我是文字内容;我是文字内容;我是文字内容;</div>
+        </div>
+        <div>
+            <h3>事件绑定</h3>
+            <div>
+                <button id="button1">按钮</button>
+            </div>
+            <script>
+                var btn = document.getElementById('button1');
+                console.log(btn);
+                // 捕获
+                btn.addEventListener('click', function (e) {
+                    console.log('capture');
+                }, true);
+
+                btn.addEventListener('click', function (e) {
+                    console.log('冒泡');
+                }, false);
+            </script>
+
+        </div>
+    </body>
+    <style>
+        .mainA {
+            width: 500px;
+        }
+    </style>
+</html>
