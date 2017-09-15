@@ -7,5 +7,6 @@
 * [call, apply与bind](/src/call-apply-bind.md)
 * [匿名函数与闭包](/src/scope.md)
 * [CSS相关](/src/css.md)
+* [移动事件](src/event.md)
 
 
