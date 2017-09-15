@@ -14,3 +14,6 @@
 ## flex
 
 ## canvas动画
+
+## 浏览器支持查询
+http://caniuse.com/
