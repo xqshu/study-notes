@@ -8,5 +8,6 @@
 * [匿名函数与闭包](/src/scope.md)
 * [CSS相关](/src/css.md)
 * [移动事件](src/event.md)
+* [数组方法比较](https://segmentfault.com/q/1010000007977209)
 
 
