@@ -5,4 +5,6 @@
 tap事件的原理其实是源于触摸touch事件,在移动触摸事件就是在同个点触发,及touchmove的坐标距离touchstart的坐标距离为0,并且点击的时间不超过某个设定的时间值,超过该时间值的话,就属于长按了。
 [参考链接](http://www.cnblogs.com/cythia/p/6928364.html)
 
-### [tap事件点透原理](http://www.cnblogs.com/wqhwe/p/5630557.html)
+#### tap事件点透原理
+* [参考一](http://www.cnblogs.com/wqhwe/p/5630557.html)
+* [参考二](https://segmentfault.com/a/1190000008578783)
